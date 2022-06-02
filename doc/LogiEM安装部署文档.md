@@ -15,9 +15,9 @@ LogiEM 平台由两个后端应用，一个前端应用，一个kibana服务，�
 - CREATE DATABASE IF NOT EXISTS logi_em; 
 - USE logi_em 
 - 建表语句
-  - [数据库创建DDL下载跳转链接](https://logi-em.s3.didiyunapi.com/logi-em-ddl.sql)
+  - [数据库创建DDL下载跳转链接](https://s3-gzpu.didistatic.com/knowsearch/logi-em-ddl.sql)
 - 插入初始化数据
-  - [数据库初始化DML下载跳转链接](https://logi-em.s3.didiyunapi.com/logi-em-init-dml.sql)
+  - [数据库初始化DML下载跳转链接](https://s3-gzpu.didistatic.com/knowsearch/logi-em-init-dml.sql)
 
 初始化dsl需要指定【元数据Elasticsearch集群名称】 ，即在初始化表query_app 时涉及一列cluster ，为元数据集群名称，例如 logi-elasticsearch-7.6.0
 
